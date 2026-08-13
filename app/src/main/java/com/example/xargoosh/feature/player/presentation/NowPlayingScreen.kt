@@ -154,7 +154,6 @@ fun NowPlayingScreen(
     )
 
     Box(modifier = Modifier.fillMaxSize()) {
-        // 1. Background Content
         if (vizEnabled) {
             com.example.xargoosh.core.visualizer.effects.LyricsVisualizerBg(
                 albumArtUri = currentTrack?.uri,
@@ -170,7 +169,6 @@ fun NowPlayingScreen(
             Box(modifier = Modifier.fillMaxSize().background(bgBrush))
         }
 
-        // 2. Main Layout Structure
         val scaffoldState = rememberBottomSheetScaffoldState(
             bottomSheetState = rememberStandardBottomSheetState(
                 initialValue = SheetValue.PartiallyExpanded,
@@ -271,7 +269,6 @@ fun NowPlayingScreen(
             )
         }
 
-        // 3. Options Menu Overlay
         if (showOptionsMenu && currentTrack != null) {
             com.example.xargoosh.presentation.components.TrackOptionsMenu(
                 track = currentTrack!!,
@@ -341,7 +338,6 @@ private fun PlayerMainContent(
             .then(if (compactHeight && !showLyrics) Modifier.verticalScroll(contentScrollState) else Modifier),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Header
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween,

@@ -159,6 +159,16 @@
     <string name="pause_on_detach">断开连接时暂停</string>
     <string name="pause_on_detach_description">耳机断开连接时暂停音乐</string>
     <string name="pause_headphone_detach">耳机断开时暂停</string>
+    <string name="audio_transitions">音频过渡</string>
+    <string name="audio_transitions_description">无缝播放、淡入淡出和 ReplayGain</string>
+    <string name="transition_mode">过渡模式</string>
+    <string name="automatic_gapless">自动无缝播放</string>
+    <string name="fade_through_no_overlap">淡出后淡入（无重叠）</string>
+    <string name="fade_duration">淡出淡入时长</string>
+    <string name="milliseconds">%1$d毫秒</string>
+    <string name="fade_pause_resume">用户暂停和继续播放时淡入淡出</string>
+    <string name="fade_pause_resume_description">通过控件、小组件、通知或耳机暂停或继续播放时，使用短暂的淡入淡出效果</string>
+    <string name="replay_gain_limitation">仅应用防削波衰减。即使 ReplayGain 请求提升增益，Xargoosh 也绝不会将音量放大至播放器的单位增益电平以上。</string>
     <string name="visualizer">音乐可视化</string>
     <string name="visualizer_description">音频可视化与效果</string>
     <string name="visualizer_options_description">样式、颜色、模糊、强度和大小</string>
@@ -172,7 +182,7 @@
     <string name="manage_media_access">管理媒体访问权限</string>
     <string name="manage_permissions">管理权限</string>
     <string name="about_xargoosh">关于 Xargoosh</string>
-    <string name="version_name" translatable="false">Version 1.0.0</string>
+    <string name="version_name" translatable="false">Version 1.1.0</string>
     <string name="developer">开发者</string>
     <string name="developer_name" translatable="false">Arshiatxd</string>
     <string name="platform">平台</string>

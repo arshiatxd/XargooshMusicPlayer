@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Bei Trennung pausieren</string>
     <string name="pause_on_detach_description">Musik pausieren, wenn Kopfhörer getrennt werden</string>
     <string name="pause_headphone_detach">Bei Kopfhörertrennung pausieren</string>
+    <string name="audio_transitions">Audioübergänge</string>
+    <string name="audio_transitions_description">Lückenlose Wiedergabe, Ein-/Ausblendungen und ReplayGain</string>
+    <string name="transition_mode">Übergangsmodus</string>
+    <string name="automatic_gapless">Automatische lückenlose Wiedergabe</string>
+    <string name="fade_through_no_overlap">Aus- und Einblenden (ohne Überlappung)</string>
+    <string name="fade_duration">Dauer der Aus-/Einblendung</string>
+    <string name="milliseconds">%1$d ms</string>
+    <string name="fade_pause_resume">Beim manuellen Pausieren und Fortsetzen aus-/einblenden</string>
+    <string name="fade_pause_resume_description">Verwendet eine kurze Aus-/Einblendung bei Steuerung über Bedienelemente, Widgets, Benachrichtigungen und Headsets</string>
+    <string name="replay_gain_limitation">Nur Pegelabsenkung mit Schutz vor Übersteuerung. Xargoosh hebt die Lautstärke niemals über den unverstärkten Pegel des Players an, auch wenn ReplayGain eine Verstärkung anfordert.</string>
     <string name="visualizer">Visualizer</string>
     <string name="visualizer_description">Audiovisualisierung &amp; Effekte</string>
     <string name="visualizer_options_description">Stil, Farbe, Unschärfe, Stärke und Größe</string>

@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Пауза при отключении</string>
     <string name="pause_on_detach_description">Приостанавливать музыку при отключении наушников</string>
     <string name="pause_headphone_detach">Пауза при отключении наушников</string>
+    <string name="audio_transitions">Звуковые переходы</string>
+    <string name="audio_transitions_description">Воспроизведение без пауз, затухание/нарастание громкости и ReplayGain</string>
+    <string name="transition_mode">Режим перехода</string>
+    <string name="automatic_gapless">Автоматическое воспроизведение без пауз</string>
+    <string name="fade_through_no_overlap">Затухание и нарастание звука (без наложения)</string>
+    <string name="fade_duration">Длительность затухания и нарастания</string>
+    <string name="milliseconds">%1$d мс</string>
+    <string name="fade_pause_resume">Затухание при паузе и нарастание при возобновлении по команде пользователя</string>
+    <string name="fade_pause_resume_description">Применяет короткое затухание/нарастание при паузе или возобновлении с кнопок управления, виджетов, уведомлений и гарнитур</string>
+    <string name="replay_gain_limitation">Только ослабление с защитой от клиппинга. Xargoosh никогда не повышает громкость выше уровня плеера при единичном усилении, даже если ReplayGain запрашивает усиление.</string>
     <string name="visualizer">Визуализатор</string>
     <string name="visualizer_description">Визуализация звука и эффекты</string>
     <string name="visualizer_options_description">Стиль, цвет, размытие, интенсивность и размер</string>

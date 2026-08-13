@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Pause à la déconnexion</string>
     <string name="pause_on_detach_description">Mettre la musique en pause lorsque les écouteurs sont déconnectés</string>
     <string name="pause_headphone_detach">Pause à la déconnexion des écouteurs</string>
+    <string name="audio_transitions">Transitions audio</string>
+    <string name="audio_transitions_description">Lecture sans interruption, fondus et ReplayGain</string>
+    <string name="transition_mode">Mode de transition</string>
+    <string name="automatic_gapless">Lecture automatique sans interruption</string>
+    <string name="fade_through_no_overlap">Fondu en sortie puis en entrée (sans chevauchement)</string>
+    <string name="fade_duration">Durée du fondu en sortie/entrée</string>
+    <string name="milliseconds">%1$d ms</string>
+    <string name="fade_pause_resume">Fondu lors des pauses et reprises manuelles</string>
+    <string name="fade_pause_resume_description">Utilise un fondu bref lors d’une pause ou d’une reprise depuis les commandes, les widgets, les notifications et les écouteurs</string>
+    <string name="replay_gain_limitation">Atténuation uniquement, avec protection contre l’écrêtage. Xargoosh n’augmente jamais le volume au-delà du niveau à gain unitaire du lecteur, même lorsque ReplayGain demande une amplification.</string>
     <string name="visualizer">Visualiseur</string>
     <string name="visualizer_description">Visualisation audio et effets</string>
     <string name="visualizer_options_description">Style, couleur, flou, intensité et taille</string>

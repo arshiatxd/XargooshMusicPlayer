@@ -12,7 +12,6 @@ data class SpacingTokens(
     val extraLarge: Dp = 32.dp,
     val massive: Dp = 48.dp,
     
-    // Semantic Spacing
     val screenPadding: Dp = 16.dp,
     val listItemPadding: Dp = 12.dp,
     val cardPadding: Dp = 16.dp,

@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Bi qutbûnê rawestîne</string>
     <string name="pause_on_detach_description">Dema guhdar qut dibin muzîkê rawestîne</string>
     <string name="pause_headphone_detach">Bi qutbûna guhdaran rawestîne</string>
+    <string name="audio_transitions">Derbasbûnên dengê</string>
+    <string name="audio_transitions_description">Lêdana bênavber, kêm û zêdebûna hêdî ya dengê û ReplayGain</string>
+    <string name="transition_mode">Awayê derbasbûnê</string>
+    <string name="automatic_gapless">Lêdana bênavber a bixweber</string>
+    <string name="fade_through_no_overlap">Kêm û zêdebûna dengê li pey hev (bê serhevketin)</string>
+    <string name="fade_duration">Dirêjahiya kêm û zêdebûna dengê</string>
+    <string name="milliseconds">%1$d mîlîçirke</string>
+    <string name="fade_pause_resume">Di rawestandin û domandina bi destan de deng hêdî kêm û zêde bike</string>
+    <string name="fade_pause_resume_description">Ji bo kontrolan, widgetan, agahdariyan û guhdaran kêm û zêdekirineke kurt a dengê bi kar tîne</string>
+    <string name="replay_gain_limitation">Tenê deng kêm dike da ku lûtkeyên dengê neyên birîn. Xargoosh qet dengê ji asta bingehîn a lêderê (1×) bilindtir nake, tewra dema ku ReplayGain bilindkirinê dixwaze jî.</string>
     <string name="visualizer">Dengnîşander</string>
     <string name="visualizer_description">Dîtbarî û bandorên dengê</string>
     <string name="visualizer_options_description">Şêwaz, reng, tarîbûn, hêz û mezinahî</string>

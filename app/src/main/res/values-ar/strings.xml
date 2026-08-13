@@ -154,6 +154,16 @@
     <string name="pause_on_detach">وقفة على الانفصال</string>
     <string name="pause_on_detach_description">إيقاف الموسيقى مؤقتًا عند فصل سماعات الرأس</string>
     <string name="pause_headphone_detach">توقف مؤقتًا عند فصل سماعة الرأس</string>
+    <string name="audio_transitions">الانتقالات الصوتية</string>
+    <string name="audio_transitions_description">التشغيل بلا فجوات، والتلاشي التدريجي، وReplayGain</string>
+    <string name="transition_mode">وضع الانتقال</string>
+    <string name="automatic_gapless">تشغيل بلا فجوات تلقائي</string>
+    <string name="fade_through_no_overlap">خفض تدريجي ثم رفع تدريجي (من دون تراكب)</string>
+    <string name="fade_duration">مدة الخفض والرفع التدريجيين</string>
+    <string name="milliseconds">%1$d ملي ثانية</string>
+    <string name="fade_pause_resume">خفض الصوت ورفعه تدريجيًا عند الإيقاف المؤقت والاستئناف يدويًا</string>
+    <string name="fade_pause_resume_description">يستخدم تدرجًا قصيرًا لمستوى الصوت مع عناصر التحكم والتطبيقات المصغّرة والإشعارات وسماعات الرأس</string>
+    <string name="replay_gain_limitation">توهين آمن من قص الإشارة فقط. لا يرفع Xargoosh مستوى الصوت أبدًا فوق مستوى الكسب الوحدوي للمشغّل، حتى عندما يطلب ReplayGain تعزيزًا.</string>
     <string name="visualizer">المؤثرات المرئية</string>
     <string name="visualizer_description">التصور الصوتي والمؤثرات</string>
     <string name="visualizer_options_description">النمط واللون والطمس والقوة والحجم</string>

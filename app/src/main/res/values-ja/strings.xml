@@ -154,6 +154,16 @@
     <string name="pause_on_detach">切り離し時に一時停止する</string>
     <string name="pause_on_detach_description">ヘッドフォンが接続されていないときに音楽を一時停止する</string>
     <string name="pause_headphone_detach">ヘッドフォンの取り外し時に一時停止する</string>
+    <string name="audio_transitions">オーディオトランジション</string>
+    <string name="audio_transitions_description">ギャップレス再生、フェード、ReplayGain</string>
+    <string name="transition_mode">トランジションモード</string>
+    <string name="automatic_gapless">自動ギャップレス再生</string>
+    <string name="fade_through_no_overlap">フェードアウト後にフェードイン（重なりなし）</string>
+    <string name="fade_duration">フェード切り替え時間</string>
+    <string name="milliseconds">%1$d ミリ秒</string>
+    <string name="fade_pause_resume">ユーザー操作による一時停止・再開時にフェード</string>
+    <string name="fade_pause_resume_description">コントロール、ウィジェット、通知、ヘッドセットから一時停止・再開したときに短いフェードを使用します</string>
+    <string name="replay_gain_limitation">クリッピングを防ぐ減衰のみを行います。ReplayGainがブーストを要求した場合でも、Xargooshがプレーヤーのユニティゲイン時の音量を超えて増幅することはありません。</string>
     <string name="visualizer">ビジュアライザー</string>
     <string name="visualizer_description">オーディオビジュアライゼーションとエフェクト</string>
     <string name="visualizer_options_description">スタイル、色、ぼかし、強さ、サイズ</string>

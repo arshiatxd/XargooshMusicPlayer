@@ -2,11 +2,6 @@ package com.example.xargoosh.core.design.tokens
 
 import androidx.compose.ui.graphics.Color
 
-/**
- * Core color tokens for the Xargoosh Platform.
- * Themes map these abstract tokens to actual color values.
- * UI components only consume these tokens.
- */
 data class ColorTokens(
     val background: Color,
     val surface: Color,

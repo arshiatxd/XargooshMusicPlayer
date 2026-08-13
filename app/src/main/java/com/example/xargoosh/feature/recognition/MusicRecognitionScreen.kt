@@ -94,8 +94,6 @@ import kotlinx.coroutines.launch
 import java.util.concurrent.atomic.AtomicBoolean
 import java.util.concurrent.atomic.AtomicLong
 
-// Public AudD demo token, limited to 10 recognition requests per day.
-// Keep this isolated so production integration can replace it with secured configuration.
 private const val AUDD_PUBLIC_DEMO_TOKEN = "test"
 
 sealed interface MusicRecognitionUiState {

@@ -112,9 +112,6 @@ enum class NetworkFailure {
     IO,
 }
 
-/**
- * Records only while [isAppInForeground] reports true. The predicate must be fast and thread-safe.
- */
 class MusicRecognitionRepository(
     context: Context,
     apiToken: String,
@@ -145,7 +142,6 @@ class MusicRecognitionRepository(
         } catch (error: CancellationException) {
             throw error
         } catch (_: RuntimeException) {
-            // UI progress callback must not prevent matching a completed capture.
         }
         val response = try {
             uploadWav(capture.wav)
@@ -356,7 +352,6 @@ class MusicRecognitionRepository(
                 try {
                     audioRecord.stop()
                 } catch (_: RuntimeException) {
-                    // Release must still run when a device rejects stop after an audio failure.
                 } finally {
                     try {
                         audioRecord.release()
@@ -485,7 +480,6 @@ class MusicRecognitionRepository(
     }
 }
 
-/** Encodes signed PCM samples as a mono, 16-bit, little-endian RIFF/WAVE byte array. */
 fun encodePcm16MonoWav(
     samples: ShortArray,
     sampleCount: Int = samples.size,
@@ -520,7 +514,6 @@ fun encodePcm16MonoWav(
     return buffer.array()
 }
 
-/** Parses both successful and error AudD payloads; unknown optional fields are ignored. */
 fun parseAudDResponse(json: String): AudDResponse {
     if (json.isBlank()) return AudDResponse.Malformed("AudD response was empty.")
 

@@ -9,7 +9,6 @@ object ArtistCredits {
     )
     private val creditSeparator = Regex("""\s*(?:,|&|;|\+)\s*|\s+[x×]\s+""", RegexOption.IGNORE_CASE)
 
-    // These punctuation marks are part of the credited artist's established name.
     private val compoundNames = setOf(
         "ac/dc",
         "earth, wind & fire",

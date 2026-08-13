@@ -44,7 +44,6 @@ class WidgetActionReceiver : BroadcastReceiver() {
                     "PREV" -> controller.seekToPreviousMediaItem()
                 }
             } catch (_: Exception) {
-                // A stale widget tap should fail silently if the session is unavailable.
             } finally {
                 MediaController.releaseFuture(controllerFuture)
                 pendingResult.finish()

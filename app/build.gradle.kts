@@ -24,8 +24,8 @@ android {
         applicationId = "com.xargoosh.music"
         minSdk = 29
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
     }
     signingConfigs {
         if (hasReleaseSigning) create("release") {
@@ -76,73 +76,56 @@ dependencies {
   implementation(composeBom)
   androidTestImplementation(composeBom)
 
-  // Core Android dependencies
   implementation(libs.androidx.core.ktx)
   implementation(libs.androidx.lifecycle.runtime.ktx)
   implementation(libs.androidx.activity.compose)
 
-  // Arch Components
   implementation(libs.androidx.lifecycle.runtime.compose)
   implementation(libs.androidx.lifecycle.viewmodel.compose)
 
-  // AppCompat & Guava for Media3
   implementation("androidx.appcompat:appcompat:1.7.1")
   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.7.3")
   implementation("com.google.code.gson:gson:2.10.1")
     implementation("androidx.documentfile:documentfile:1.0.1")
 
-  // Compose
   implementation(libs.androidx.compose.ui)
   implementation(libs.androidx.compose.ui.tooling.preview)
   implementation(libs.androidx.compose.material3)
   implementation(libs.androidx.compose.material.iconsExtended)
-  // Tooling
   debugImplementation(libs.androidx.compose.ui.tooling)
-  // Instrumented tests
   androidTestImplementation(libs.androidx.compose.ui.test.junit4)
   debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-  // Local tests: jUnit, coroutines, Android runner
   testImplementation(libs.junit)
   testImplementation(libs.kotlinx.coroutines.test)
 
-  // Instrumented tests: jUnit rules and runners
   androidTestImplementation(libs.androidx.test.core)
   androidTestImplementation(libs.androidx.test.ext.junit)
   androidTestImplementation(libs.androidx.test.runner)
   androidTestImplementation(libs.androidx.test.espresso.core)
 
-  // Navigation
   implementation(libs.androidx.navigation3.ui)
   implementation(libs.androidx.navigation3.runtime)
   implementation(libs.androidx.lifecycle.viewmodel.navigation3)
 
-  // Media3 (ExoPlayer)
   implementation(libs.media3.exoplayer)
   implementation(libs.media3.session)
   implementation(libs.media3.ui)
 
-  // Room
   implementation(libs.room.runtime)
   implementation(libs.room.ktx)
   ksp(libs.room.compiler)
 
-  // Coil
   implementation(libs.coil.compose)
 
-  // Jaudiotagger
   implementation(libs.jaudiotagger)
   
-  // Reorderable
   implementation("sh.calvin.reorderable:reorderable:2.5.1")
 
-  // Haze (frosted glass blur for lyrics background)
   implementation("dev.chrisbanes.haze:haze:0.7.3")
 
-  // DataStore (visualizer + app settings persistence)
   implementation("androidx.datastore:datastore-preferences:1.1.1")
 
-  // Glance (Home Screen Widgets)
   implementation("androidx.glance:glance-appwidget:1.1.1")
   implementation("androidx.glance:glance-material3:1.1.1")
 }

@@ -186,7 +186,7 @@
     <string name="manage_media_access">Manage media access</string>
     <string name="manage_permissions">Manage Permissions</string>
     <string name="about_xargoosh">About Xargoosh</string>
-    <string name="version_name" translatable="false">Version 1.0.0</string>
+    <string name="version_name" translatable="false">Version 1.1.0</string>
     <string name="developer">Developer</string>
     <string name="developer_name" translatable="false">Arshiatxd</string>
     <string name="platform">Platform</string>

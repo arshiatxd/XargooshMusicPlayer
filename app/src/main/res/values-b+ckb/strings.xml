@@ -154,6 +154,16 @@
     <string name="pause_on_detach">ڕاگرتن لە کاتی دابڕان</string>
     <string name="pause_on_detach_description">کاتێک گوێگرەکان دادەبڕێن مۆسیقا ڕابگرە</string>
     <string name="pause_headphone_detach">ڕاگرتن لە دابڕانی گوێگر</string>
+    <string name="audio_transitions">گۆڕانەکانی دەنگ</string>
+    <string name="audio_transitions_description">لێدانی بێ‌بۆشایی، نزم و بەرزبوونەوەی هێواشی دەنگ و ReplayGain</string>
+    <string name="transition_mode">شێوازی گۆڕان</string>
+    <string name="automatic_gapless">لێدانی بێ‌بۆشاییی خۆکار</string>
+    <string name="fade_through_no_overlap">نزمبوونەوە، پاشان بەرزبوونەوەی هێواش (بێ هاوپۆشانی)</string>
+    <string name="fade_duration">ماوەی نزم و بەرزبوونەوەی هێواشی دەنگ</string>
+    <string name="milliseconds">%1$d میلی چرکە</string>
+    <string name="fade_pause_resume">نزم و بەرزکردنەوەی هێواشی دەنگ لە ڕاگرتن و دەستپێکردنەوەی بەکارهێنەر</string>
+    <string name="fade_pause_resume_description">بۆ کۆنترۆڵەکان، ویجێتەکان، ئاگادارکردنەوەکان و گوێگرەکان نزم و بەرزبوونەوەیەکی کورتی دەنگ بەکاردەهێنێت</string>
+    <string name="replay_gain_limitation">تەنها نزمکردنەوەی دەنگ بەبێ مەترسیی کلیپینگ. Xargoosh هەرگیز دەنگ لە ئاستی بنەڕەتیی لێدەر بەرزتر ناکاتەوە، تەنانەت کاتێک ReplayGain داوای بەرزکردنەوەی دەنگ دەکات.</string>
     <string name="visualizer">بینراوکەری دەنگ</string>
     <string name="visualizer_description">بینراوکردن و کاریگەرییەکانی دەنگ</string>
     <string name="visualizer_options_description">شێواز، ڕەنگ، لێڵی، هێز و قەبارە</string>

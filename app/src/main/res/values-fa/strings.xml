@@ -154,6 +154,16 @@
     <string name="pause_on_detach">مکث هنگام قطع اتصال</string>
     <string name="pause_on_detach_description">وقتی هدفون قطع شد، موسیقی را متوقف کنید</string>
     <string name="pause_headphone_detach">مکث در جدا کردن هدفون</string>
+    <string name="audio_transitions">گذارهای صوتی</string>
+    <string name="audio_transitions_description">پخش بی‌وقفه، فیدهای صوتی و ReplayGain</string>
+    <string name="transition_mode">حالت گذار</string>
+    <string name="automatic_gapless">پخش بی‌وقفهٔ خودکار</string>
+    <string name="fade_through_no_overlap">کاهش و سپس افزایش تدریجی صدا (بدون هم‌پوشانی)</string>
+    <string name="fade_duration">مدت کاهش و افزایش تدریجی صدا</string>
+    <string name="milliseconds">%1$d میلی‌ثانیه</string>
+    <string name="fade_pause_resume">فید صدا هنگام مکث و ازسرگیری توسط کاربر</string>
+    <string name="fade_pause_resume_description">برای کنترل‌ها، ویجت‌ها، اعلان‌ها و هدفون‌ها از فیدی کوتاه استفاده می‌کند</string>
+    <string name="replay_gain_limitation">فقط تضعیف ایمن در برابر کلیپینگ. Xargoosh هرگز صدا را بالاتر از سطح بهرهٔ واحد پخش‌کننده تقویت نمی‌کند، حتی اگر ReplayGain افزایش صدا را درخواست کند.</string>
     <string name="visualizer">تصویرساز موسیقی</string>
     <string name="visualizer_description">تجسم و جلوه های صوتی</string>
     <string name="visualizer_options_description">سبک، رنگ، تاری، قدرت و اندازه</string>

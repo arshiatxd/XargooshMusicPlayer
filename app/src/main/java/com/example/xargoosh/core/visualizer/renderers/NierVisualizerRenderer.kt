@@ -17,11 +17,6 @@ import kotlin.math.cos
 import kotlin.math.sin
 import kotlin.math.PI
 
-/**
- * Nier-inspired HUD visualizer.
- * Only responsible for drawing based on the state it receives.
- * Allocations are strictly avoided in the draw loop.
- */
 @Composable
 fun NierVisualizerRenderer(
     state: VisualizerState,
@@ -61,8 +56,6 @@ private fun DrawScope.drawDottedRing(cx: Float, cy: Float, radius: Float, rms: F
         0f, 360f
     )
     
-    // Simplistic dash drawing logic for performance (allocating inside draw is bad, so we'd ideally cache the path)
-    // For now, we simulate the effect simply.
     drawCircle(
         color = color.copy(alpha = 0.6f),
         radius = currentRadius,
@@ -79,7 +72,6 @@ private fun DrawScope.drawMechanicalRing(cx: Float, cy: Float, radius: Float, co
         style = Stroke(width = 2f)
     )
     
-    // Draw tick marks
     for (i in 0 until 12) {
         val angle = (i * 30) * (PI / 180f)
         val startX = cx + cos(angle).toFloat() * radius
@@ -103,13 +95,11 @@ private fun DrawScope.drawOscilloscopeWave(cx: Float, cy: Float, width: Float, f
     val points = fft.size
     val step = width / points
     
-    // Ideally use a reusable Path, but for this mock we use simple lines
     var lastX = 0f
     var lastY = cy
     
     for (i in fft.indices) {
         val x = i * step
-        // Apply sine wave envelope to constrain amplitude to center
         val envelope = sin((i.toFloat() / points) * PI).toFloat()
         val amplitude = fft[i] * 100f * envelope
         val y = cy - amplitude

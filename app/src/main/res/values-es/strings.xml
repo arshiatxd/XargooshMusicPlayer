@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Pausar al desconectar</string>
     <string name="pause_on_detach_description">Pausa la música cuando se desconectan los auriculares</string>
     <string name="pause_headphone_detach">Pausar al desconectar auriculares</string>
+    <string name="audio_transitions">Transiciones de audio</string>
+    <string name="audio_transitions_description">Reproducción sin pausas, fundidos y ReplayGain</string>
+    <string name="transition_mode">Modo de transición</string>
+    <string name="automatic_gapless">Reproducción automática sin pausas</string>
+    <string name="fade_through_no_overlap">Fundido de salida y entrada (sin solapamiento)</string>
+    <string name="fade_duration">Duración del fundido de salida y entrada</string>
+    <string name="milliseconds">%1$d ms</string>
+    <string name="fade_pause_resume">Fundido al pausar y reanudar manualmente</string>
+    <string name="fade_pause_resume_description">Usa un fundido breve al pausar o reanudar desde controles, widgets, notificaciones y auriculares</string>
+    <string name="replay_gain_limitation">Solo atenuación con protección contra la saturación. Xargoosh nunca aumenta el volumen por encima del nivel de ganancia unitaria del reproductor, ni siquiera cuando ReplayGain solicita amplificación.</string>
     <string name="visualizer">Visualizador</string>
     <string name="visualizer_description">Visualización de audio y efectos</string>
     <string name="visualizer_options_description">Estilo, color, desenfoque, intensidad y tamaño</string>

@@ -154,6 +154,16 @@
     <string name="pause_on_detach">منقطع ہونے پر روکیں</string>
     <string name="pause_on_detach_description">ہیڈ فون منقطع ہونے پر موسیقی روکیں</string>
     <string name="pause_headphone_detach">ہیڈ فون منقطع ہونے پر روکیں</string>
+    <string name="audio_transitions">آڈیو منتقلیاں</string>
+    <string name="audio_transitions_description">بلاوقفہ پلے بیک، فیڈز اور ReplayGain</string>
+    <string name="transition_mode">منتقلی کا طریقہ</string>
+    <string name="automatic_gapless">خودکار بلاوقفہ پلے بیک</string>
+    <string name="fade_through_no_overlap">فیڈ آؤٹ، پھر فیڈ اِن (بغیر اوورلیپ)</string>
+    <string name="fade_duration">فیڈ آؤٹ اور فیڈ اِن کا دورانیہ</string>
+    <string name="milliseconds">%1$d ملی سیکنڈ</string>
+    <string name="fade_pause_resume">صارف کے روکنے اور دوبارہ چلانے پر فیڈ</string>
+    <string name="fade_pause_resume_description">کنٹرولز، ویجٹس، اطلاعات اور ہیڈ سیٹس کے لیے مختصر فیڈ استعمال کرتا ہے</string>
+    <string name="replay_gain_limitation">صرف کلپنگ سے محفوظ تخفیف۔ Xargoosh آواز کو کبھی پلیئر کے یونٹی والیوم سے زیادہ نہیں بڑھاتا، چاہے ReplayGain بوسٹ کی درخواست کرے۔</string>
     <string name="visualizer">صوتی منظر</string>
     <string name="visualizer_description">آڈیو کی منظر کشی اور اثرات</string>
     <string name="visualizer_options_description">انداز، رنگ، دھندلا پن، شدت اور سائز</string>

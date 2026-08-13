@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Jeda saat Melepaskan</string>
     <string name="pause_on_detach_description">Jeda musik saat headphone dicabut</string>
     <string name="pause_headphone_detach">Jeda saat headphone dilepas</string>
+    <string name="audio_transitions">Transisi audio</string>
+    <string name="audio_transitions_description">Pemutaran tanpa jeda, efek fade, dan ReplayGain</string>
+    <string name="transition_mode">Mode transisi</string>
+    <string name="automatic_gapless">Pemutaran tanpa jeda otomatis</string>
+    <string name="fade_through_no_overlap">Fade-out lalu fade-in (tanpa tumpang tindih)</string>
+    <string name="fade_duration">Durasi fade-out/fade-in</string>
+    <string name="milliseconds">%1$d milidetik</string>
+    <string name="fade_pause_resume">Fade saat pengguna menjeda dan melanjutkan pemutaran</string>
+    <string name="fade_pause_resume_description">Menggunakan fade singkat saat menjeda atau melanjutkan dari kontrol, widget, notifikasi, dan headset</string>
+    <string name="replay_gain_limitation">Hanya atenuasi yang aman dari clipping yang diterapkan. Xargoosh tidak pernah menaikkan volume melampaui level unity pemutar, termasuk saat ReplayGain meminta penguatan.</string>
     <string name="visualizer">Visualisator</string>
     <string name="visualizer_description">Visualisasi &amp; efek audio</string>
     <string name="visualizer_options_description">Gaya, warna, blur, kekuatan dan ukuran</string>

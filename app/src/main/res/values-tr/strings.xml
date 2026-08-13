@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Ayrılırken Duraklat</string>
     <string name="pause_on_detach_description">Kulaklıkların bağlantısı kesildiğinde müziği duraklatın</string>
     <string name="pause_headphone_detach">Kulaklık çıkarıldığında duraklat</string>
+    <string name="audio_transitions">Ses geçişleri</string>
+    <string name="audio_transitions_description">Boşluksuz oynatma, sesin kademeli kısılıp açılması ve ReplayGain</string>
+    <string name="transition_mode">Geçiş modu</string>
+    <string name="automatic_gapless">Otomatik boşluksuz oynatma</string>
+    <string name="fade_through_no_overlap">Sesin kademeli kısılıp açılması (örtüşme yok)</string>
+    <string name="fade_duration">Sesi kısıp açma süresi</string>
+    <string name="milliseconds">%1$d ms</string>
+    <string name="fade_pause_resume">Kullanıcı duraklatıp sürdürdüğünde sesi kademeli kıs/aç</string>
+    <string name="fade_pause_resume_description">Kontrollerden, widget’lardan, bildirimlerden ve kulaklıklardan gelen duraklatma ve sürdürme komutlarında kısa bir ses geçişi uygular</string>
+    <string name="replay_gain_limitation">Yalnızca kırpılmayı önleyen zayıflatma uygulanır. ReplayGain kazanç artışı istese bile Xargoosh sesi oynatıcının birim kazanç düzeyinin üzerine çıkarmaz.</string>
     <string name="visualizer">Görselleştirici</string>
     <string name="visualizer_description">Ses görselleştirme ve efektler</string>
     <string name="visualizer_options_description">Stil, renk, bulanıklık, güç ve boyut</string>

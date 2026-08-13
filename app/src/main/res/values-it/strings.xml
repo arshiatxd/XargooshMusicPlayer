@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Pausa alla disconnessione</string>
     <string name="pause_on_detach_description">Metti in pausa la musica quando le cuffie vengono scollegate</string>
     <string name="pause_headphone_detach">Pausa alla disconnessione cuffie</string>
+    <string name="audio_transitions">Transizioni audio</string>
+    <string name="audio_transitions_description">Riproduzione senza interruzioni, dissolvenze e ReplayGain</string>
+    <string name="transition_mode">Modalità di transizione</string>
+    <string name="automatic_gapless">Riproduzione automatica senza interruzioni</string>
+    <string name="fade_through_no_overlap">Dissolvenza in uscita poi in entrata (senza sovrapposizione)</string>
+    <string name="fade_duration">Durata della dissolvenza in uscita/entrata</string>
+    <string name="milliseconds">%1$d ms</string>
+    <string name="fade_pause_resume">Dissolvenza alla pausa e alla ripresa dell’utente</string>
+    <string name="fade_pause_resume_description">Usa una breve dissolvenza quando la riproduzione viene messa in pausa o ripresa tramite controlli, widget, notifiche e cuffie</string>
+    <string name="replay_gain_limitation">Solo attenuazione con protezione dal clipping. Xargoosh non aumenta mai il volume oltre il livello a guadagno unitario del lettore, anche quando ReplayGain richiede un’amplificazione.</string>
     <string name="visualizer">Visualizzatore</string>
     <string name="visualizer_description">Visualizzazione audio ed effetti</string>
     <string name="visualizer_options_description">Stile, colore, sfocatura, intensità e dimensione</string>

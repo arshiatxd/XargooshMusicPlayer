@@ -127,7 +127,6 @@ fun XargooshTheme(
         scrim = androidx.compose.ui.graphics.Color.Black
     )
 
-    // 1 & 6. Verify provider chain: CompositionLocalProvider -> MaterialTheme -> Content
     CompositionLocalProvider(
         LocalAppTheme provides appTheme,
         LocalColorTokens provides colors,

@@ -154,6 +154,16 @@
     <string name="pause_on_detach">डिस्कनेक्ट होने पर रोकें</string>
     <string name="pause_on_detach_description">हेडफ़ोन डिस्कनेक्ट होने पर संगीत रोकें</string>
     <string name="pause_headphone_detach">हेडफ़ोन हटने पर रोकें</string>
+    <string name="audio_transitions">ऑडियो ट्रांज़िशन</string>
+    <string name="audio_transitions_description">गैपलेस प्लेबैक, फ़ेड और ReplayGain</string>
+    <string name="transition_mode">ट्रांज़िशन मोड</string>
+    <string name="automatic_gapless">ऑटोमैटिक गैपलेस प्लेबैक</string>
+    <string name="fade_through_no_overlap">फ़ेड-आउट, फिर फ़ेड-इन (कोई ओवरलैप नहीं)</string>
+    <string name="fade_duration">फ़ेड-आउट/फ़ेड-इन की अवधि</string>
+    <string name="milliseconds">%1$d मिलीसेकंड</string>
+    <string name="fade_pause_resume">यूज़र के पॉज़ और फिर से चलाने पर फ़ेड करें</string>
+    <string name="fade_pause_resume_description">कंट्रोल, विजेट, नोटिफ़िकेशन और हेडसेट से पॉज़ या फिर से चलाने पर थोड़े समय का फ़ेड इस्तेमाल करता है</string>
+    <string name="replay_gain_limitation">केवल क्लिपिंग से सुरक्षित अटेन्यूएशन लागू किया जाता है। ReplayGain से बूस्ट का अनुरोध मिलने पर भी Xargoosh कभी वॉल्यूम को प्लेयर के यूनिटी लेवल से ऊपर नहीं बढ़ाता।</string>
     <string name="visualizer">विज़ुअलाइज़र</string>
     <string name="visualizer_description">ऑडियो विज़ुअलाइज़ेशन और प्रभाव</string>
     <string name="visualizer_options_description">शैली, रंग, धुंधलापन, तीव्रता और आकार</string>

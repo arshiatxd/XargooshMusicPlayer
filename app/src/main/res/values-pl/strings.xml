@@ -154,6 +154,16 @@
     <string name="pause_on_detach">Wstrzymuj po odłączeniu</string>
     <string name="pause_on_detach_description">Wstrzymuj muzykę po odłączeniu słuchawek</string>
     <string name="pause_headphone_detach">Wstrzymuj po odłączeniu słuchawek</string>
+    <string name="audio_transitions">Przejścia dźwiękowe</string>
+    <string name="audio_transitions_description">Odtwarzanie bez przerw, zanikanie i narastanie dźwięku oraz ReplayGain</string>
+    <string name="transition_mode">Tryb przejścia</string>
+    <string name="automatic_gapless">Automatyczne odtwarzanie bez przerw</string>
+    <string name="fade_through_no_overlap">Zanikanie i narastanie dźwięku (bez nakładania się)</string>
+    <string name="fade_duration">Czas zanikania i narastania dźwięku</string>
+    <string name="milliseconds">%1$d ms</string>
+    <string name="fade_pause_resume">Płynna zmiana głośności przy ręcznym wstrzymywaniu i wznawianiu</string>
+    <string name="fade_pause_resume_description">Stosuje krótką płynną zmianę głośności przy wstrzymywaniu lub wznawianiu za pomocą elementów sterujących, widżetów, powiadomień i słuchawek</string>
+    <string name="replay_gain_limitation">Wyłącznie tłumienie z ochroną przed przesterowaniem. Xargoosh nigdy nie zwiększa głośności powyżej poziomu odtwarzacza przy wzmocnieniu jednostkowym, nawet gdy ReplayGain zaleca podbicie.</string>
     <string name="visualizer">Wizualizator</string>
     <string name="visualizer_description">Wizualizacja dźwięku i efekty</string>
     <string name="visualizer_options_description">Styl, kolor, rozmycie, intensywność i rozmiar</string>

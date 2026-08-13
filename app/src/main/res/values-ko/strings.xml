@@ -154,6 +154,16 @@
     <string name="pause_on_detach">분리 시 일시 중지</string>
     <string name="pause_on_detach_description">헤드폰 연결이 끊어지면 음악 일시중지</string>
     <string name="pause_headphone_detach">헤드폰 분리 시 일시중지</string>
+    <string name="audio_transitions">오디오 전환</string>
+    <string name="audio_transitions_description">갭리스 재생, 페이드 및 ReplayGain</string>
+    <string name="transition_mode">전환 모드</string>
+    <string name="automatic_gapless">자동 갭리스 재생</string>
+    <string name="fade_through_no_overlap">페이드 아웃 후 페이드 인(겹침 없음)</string>
+    <string name="fade_duration">페이드 전환 시간</string>
+    <string name="milliseconds">%1$d밀리초</string>
+    <string name="fade_pause_resume">사용자가 일시중지하거나 재개할 때 페이드 적용</string>
+    <string name="fade_pause_resume_description">컨트롤, 위젯, 알림 또는 헤드셋에서 일시중지하거나 재개할 때 짧은 페이드를 사용합니다</string>
+    <string name="replay_gain_limitation">클리핑을 방지하는 감쇠만 적용합니다. ReplayGain이 부스트를 요청하는 경우에도 Xargoosh는 플레이어의 유니티 게인 레벨을 초과해 증폭하지 않습니다.</string>
     <string name="visualizer">비주얼라이저</string>
     <string name="visualizer_description">오디오 시각화 및 효과</string>
     <string name="visualizer_options_description">스타일, 색상, 흐림, 강도 및 크기</string>

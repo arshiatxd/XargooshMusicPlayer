@@ -1,6 +1,5 @@
 package com.example.xargoosh.domain.playback
 
-/** Tracks active listening time for one media-item playback session. */
 internal class ActiveListeningTracker {
     private var itemId: String? = null
     private var trackUri: String? = null

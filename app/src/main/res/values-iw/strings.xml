@@ -154,6 +154,16 @@
     <string name="pause_on_detach">השהיה בעת ניתוק</string>
     <string name="pause_on_detach_description">השהיית המוזיקה כשהאוזניות מנותקות</string>
     <string name="pause_headphone_detach">השהיה בניתוק אוזניות</string>
+    <string name="audio_transitions">מעברי שמע</string>
+    <string name="audio_transitions_description">נגינה ללא פערים, עמעומים ו-ReplayGain</string>
+    <string name="transition_mode">מצב מעבר</string>
+    <string name="automatic_gapless">נגינה אוטומטית ללא פערים</string>
+    <string name="fade_through_no_overlap">דעיכה ואז התגברות הדרגתית (ללא חפיפה)</string>
+    <string name="fade_duration">משך הדעיכה וההתגברות</string>
+    <string name="milliseconds">%1$d מילישניות</string>
+    <string name="fade_pause_resume">עמעום בהשהיה ובחידוש הנגינה ביוזמת המשתמש</string>
+    <string name="fade_pause_resume_description">שימוש בעמעום קצר עבור פקדים, וידג׳טים, התראות ואוזניות</string>
+    <string name="replay_gain_limitation">הנחתה בלבד, תוך מניעת קיטום. Xargoosh לעולם אינו מגביר מעבר לרמת הגבר היחידה של הנגן, גם כאשר ReplayGain מבקש הגברה.</string>
     <string name="visualizer">מציג חזותי</string>
     <string name="visualizer_description">המחשה חזותית ואפקטים של שמע</string>
     <string name="visualizer_options_description">סגנון, צבע, טשטוש, עוצמה וגודל</string>

@@ -129,7 +129,7 @@ object LyricsRepository {
             connection.requestMethod = "GET"
             connection.connectTimeout = 6_000
             connection.readTimeout = 8_000
-            connection.setRequestProperty("User-Agent", "XargooshMusicPlayer/1.0.0")
+            connection.setRequestProperty("User-Agent", "XargooshMusicPlayer/1.1.0")
             if (connection.responseCode == HttpURLConnection.HTTP_OK) {
                 connection.inputStream.use { input -> readBoundedText(input, 1024 * 1024) }
             } else null
