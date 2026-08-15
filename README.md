@@ -22,20 +22,6 @@ Xargoosh is made for people who keep their own music collection and want a capab
 - Android SDK 36
 - Android 10 or newer (API 29)
 
-## Build
-
-```powershell
-.\gradlew.bat :app:assembleDebug
-```
-
-Release signing is read from Gradle properties or environment variables:
-
-- `XARGOOSH_KEYSTORE_FILE`
-- `XARGOOSH_STORE_PASSWORD`
-- `XARGOOSH_KEY_PASSWORD`
-
-No signing key or password is stored in this repository.
-
 ## Music Recognition
 
 The development build uses AudD's public demo token, which is limited to 10 shared requests per day. Public releases should route recognition through a secured backend with production credentials.
