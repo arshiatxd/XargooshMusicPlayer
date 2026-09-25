@@ -1,0 +1,24 @@
+﻿# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Build & Archives
+*.apk
+*.aab
+*.zip
+*.tar.gz
+build/
+bin/
+
+# Temporary / Scratch files
+*.tmp
+*.log
+.scratch/

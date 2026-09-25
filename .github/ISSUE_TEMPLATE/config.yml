@@ -1,0 +1,8 @@
+﻿blank_issues_enabled: false
+contact_links:
+  - name: Release Downloads
+    url: https://github.com/arshiatxd/XargooshMusicPlayer/releases
+    about: Download the latest stable Android APK release.
+  - name: Community & Inquiries
+    url: https://github.com/arshiatxd/XargooshMusicPlayer/issues
+    about: Report issues or discuss enhancements with the developer.
