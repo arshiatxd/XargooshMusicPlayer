@@ -80,11 +80,11 @@ No accounts, no advertisements, no tracking, and no background data collection. 
 
 Download the latest official APK from the [Releases](https://github.com/arshiatxd/XargooshMusicPlayer/releases) tab.
 
-### Official Binaries (v1.1.0)
+### Official Binaries (v1.1.1)
 
 | Asset | Size | SHA-256 Checksum | Signature |
 | :--- | :--- | :--- | :--- |
-| **`app-release.apk`** | ~66.6 MB | `84f09df869d63f8171e3ed83031b936963896dd921fff1f8fa2610a7170556de` | APK Signature Scheme v2 (Verified) |
+| **`app-release.apk`** | ~66.7 MB | `8e51c201c567feafdf65930351b694e89f8ee0d31a0b4c93b9f5512068e5cc51` | APK Signature Scheme v2 (Verified) |
 
 > [!TIP]
 > You can verify the integrity of the downloaded APK using PowerShell:

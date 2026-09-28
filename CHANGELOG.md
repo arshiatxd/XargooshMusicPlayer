@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.1] - 2026-09-28
+
+### 🎨 UI & Layout Redesign
+- **Modern Arc Navigation**: Implemented a curved bottom arc tab slider with smooth horizontal pagination across Songs, Playlists, Albums, Artists, Folders, and Genres, featuring faded perimeter edges and dynamic focus opacity.
+- **Top Bar Redesign**: Clean header with app branding, a dedicated Music Identifier button, unified Search, and an overflow menu.
+- **Horizontal "Recently Played" Carousel**: Added a 10-track swipeable carousel directly beneath the top bar showing album art and track titles; collapses automatically when scrolling down the library.
+- **Subtle Faded Divider**: Integrated a low-opacity divider separating recent history from the main song collection.
+- **Library Header Bar**: Integrated a real-time song counter on the left alongside sort order and play queue actions on the right.
+- **Gapless MiniPlayer Geometry**: Fine-tuned bottom miniplayer offsets flush against the arc tab slider, eliminating empty gaps across all screen aspect ratios.
+- **UI Mode Toggle**: Added an option in **Settings > Display** allowing users to switch seamlessly between the Modern Arc UI and the Classic tabbed interface.
+- **Cleaned Playback Actions**: Removed redundant menu shuffle/play buttons from the Modern Arc layout for a sleeker presentation.
+
+### ✨ Aero Glassmorphism & Custom Icons
+- **Aero Glassmorphic Menus**: Modernized 3-dots popup menus across Settings, library tabs, and track options with 18dp rounded corners, frosted glass background, subtle borders, and color-coded icon badges.
+- **Unique Music Identifier Icon**: Introduced a custom vector audio recognition icon (`ic_music_identifier.xml`) clearly distinguishing music identification from the equalizer.
+
+### 🔐 Security & Signing
+- **Official V2 Signed Release**: Packaged and signed with official keystore using **APK Signature Scheme v2**.
+- **Package Checksum**:
+  - File: `app-release.apk`
+  - SHA-256: `8e51c201c567feafdf65930351b694e89f8ee0d31a0b4c93b9f5512068e5cc51`
+
+---
+
 ## [1.1.0] - 2026-09-28
 
 ### ⚡ Performance & Media Scanner
