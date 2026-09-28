@@ -48,7 +48,7 @@ Download the latest official APK from the [Releases](https://github.com/arshiatx
 
 | Asset | Size | SHA-256 Checksum | Signature |
 | :--- | :--- | :--- | :--- |
-| **`app-release.apk`** | ~66.7 MB | `8e51c201c567feafdf65930351b694e89f8ee0d31a0b4c93b9f5512068e5cc51` | APK Signature Scheme v2 (Verified) |
+| **`app-release.apk`** | ~66.7 MB | `abd28e96dde18f0cf27da9ad567c4317aa7be7c7b812033d4dc5d5805063047d` | APK Signature Scheme v2 (Verified) |
 
 > [!TIP]
 > You can verify the integrity of the downloaded APK using PowerShell:
