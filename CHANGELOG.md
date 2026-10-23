@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.2] - 2026-10-24
+
+### 🔀 Spotify-Style Queue Architecture
+- **Immediate Song Selection on Top**: Picking any song of choice from library, playlists, albums, artists, folders, or genres instantly places that track at index `0` ("Now Playing") and begins playback.
+- **Dynamic Queue Randomization**: The remaining tracks from the source collection are automatically shuffled behind the selected track, ensuring fresh upcoming listening order.
+- **Now Playing Pinned on Top**: Redesigned Queue view with the active track persistently positioned at the very top with animated audio wave visualizer, metadata, and album art.
+- **Custom Randomize Buttons**:
+  - Top bar action in Queue screen to re-randomize upcoming tracks on demand.
+  - Section header pill button in `NEXT IN QUEUE` for one-tap queue shuffling.
+  - Custom `Shuffle` button directly in the swipeable bottom sheet `Up Next` tab in Tabbed Player Layout.
+- **Collapsible History**: Clean collapsible `PREVIOUSLY PLAYED` section keeping played tracks accessible while prioritizing active upcoming music.
+
+---
+
 ## [1.1.1] - 2026-09-28
 
 ### 🎨 UI & Layout Redesign

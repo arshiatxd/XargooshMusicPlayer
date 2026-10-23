@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/arshiatxd/XargooshMusicPlayer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.1.1-blue.svg?style=for-the-badge&logo=android" alt="Release v1.1.1"></a>
-  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-v1.1.1-orange.svg?style=for-the-badge" alt="Changelog"></a>
+  <a href="https://github.com/arshiatxd/XargooshMusicPlayer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.1.2-blue.svg?style=for-the-badge&logo=android" alt="Release v1.1.2"></a>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-v1.1.2-orange.svg?style=for-the-badge" alt="Changelog"></a>
   <a href="#-license--terms"><img src="https://img.shields.io/badge/License-Proprietary%20%2F%20Closed%20Source-red.svg?style=for-the-badge" alt="Closed Source"></a>
   <a href="#-languages--technologies"><img src="https://img.shields.io/badge/Language-Kotlin%20100%25-7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin 100%"></a>
 </p>
@@ -44,11 +44,11 @@ The application is built natively for Android using modern technologies:
 
 Download the latest official APK from the [Releases](https://github.com/arshiatxd/XargooshMusicPlayer/releases) tab.
 
-### Official Binaries (v1.1.1)
+### Official Binaries (v1.1.2)
 
 | Asset | Size | SHA-256 Checksum | Signature |
 | :--- | :--- | :--- | :--- |
-| **`app-release.apk`** | ~66.7 MB | `097645b585258571659c7aeb4d3fee72057ef3c6f139d4f748ec8e53b9867896` | APK Signature Scheme v2 (Verified) |
+| **`app-release.apk`** | ~66.7 MB | `fa0d0e9fcfd3034d9e7eb560e65818858d8b10044fe9a5483c467f6ee05dbe83` | APK Signature Scheme v2 (Verified) |
 
 > [!TIP]
 > You can verify the integrity of the downloaded APK using PowerShell:
