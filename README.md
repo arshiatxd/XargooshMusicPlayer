@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/arshiatxd/XargooshMusicPlayer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.1.2-blue.svg?style=for-the-badge&logo=android" alt="Release v1.1.2"></a>
-  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-v1.1.2-orange.svg?style=for-the-badge" alt="Changelog"></a>
+  <a href="https://github.com/arshiatxd/XargooshMusicPlayer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.1.3-blue.svg?style=for-the-badge&logo=android" alt="Release v1.1.3"></a>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/Changelog-v1.1.3-orange.svg?style=for-the-badge" alt="Changelog"></a>
   <a href="#-license--terms"><img src="https://img.shields.io/badge/License-Proprietary%20%2F%20Closed%20Source-red.svg?style=for-the-badge" alt="Closed Source"></a>
   <a href="#-languages--technologies"><img src="https://img.shields.io/badge/Language-Kotlin%20100%25-7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin 100%"></a>
 </p>
@@ -44,11 +44,11 @@ The application is built natively for Android using modern technologies:
 
 Download the latest official APK from the [Releases](https://github.com/arshiatxd/XargooshMusicPlayer/releases) tab.
 
-### Official Binaries (v1.1.2)
+### Official Binaries (v1.1.3)
 
 | Asset | Size | SHA-256 Checksum | Signature |
 | :--- | :--- | :--- | :--- |
-| **`app-release.apk`** | ~66.7 MB | `fa0d0e9fcfd3034d9e7eb560e65818858d8b10044fe9a5483c467f6ee05dbe83` | APK Signature Scheme v2 (Verified) |
+| **`app-release.apk`** | ~15.0 MB | `e82a01f08c2001ea7410566751fd88c5f08a42ccb77b83153b84e28997bbc5b0` | APK Signature Scheme v2 (Verified) |
 
 > [!TIP]
 > You can verify the integrity of the downloaded APK using PowerShell:
@@ -64,7 +64,7 @@ Download the latest official APK from the [Releases](https://github.com/arshiatx
 | ------------- | ----------- |
 | **OS Version** | Android 10.0 (API 29) or newer |
 | **Architecture** | ARM64-v8a, armeabi-v7a, x86_64 |
-| **Storage** | ~70 MB free space + your audio files |
+| **Storage** | ~25 MB free space + your audio files |
 | **Permissions** | Audio / Media Storage access; Microphone (only for visualizer & on-demand recognition) |
 
 ---

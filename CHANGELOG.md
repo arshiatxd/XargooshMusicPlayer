@@ -7,6 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.3] - 2026-11-16
+
+### 🐛 Playback, Queue & Audio Focus Fixes
+- **Shuffle Toggle & Position Stability Fix**: Replaced destructive queue item swap-rebuilds with non-destructive ExoPlayer `ShuffleOrder` timeline shuffling so toggling shuffle from the app, widgets, or system notification bar never resets or skips playback position or hides the Next button.
+- **Notification Player Controls**: Added **Shuffle** and **Repeat Mode** toggle actions directly alongside previous, play/pause, and next controls in the system media notification (kept cleanly within the 5-slot notification bar without a favorite icon).
+- **Search → Play Next Fix**: Selecting **Play Next** on a search result while music is playing now reliably inserts the track immediately after the active song in both normal and shuffled playback without disturbing audio output.
+- **Pause on Other Audio Fix**: Switched from ExoPlayer's internal audio focus handler to explicit `AudioFocusRequest` + active external playback monitoring so third-party apps (social feeds, browsers, calls, voice notes) reliably pause playback.
+- **Play All Sequential Mode**: Fixed **Play All** actions across Folders, Albums, Artists, and Genres to preserve sequential track order.
+
+### 🎨 UI, Playback Cover & Performance Optimizations
+- **Blurred Album Cover Backdrop (Normal & Tabbed)**: Added a fast, cached blurred album cover background behind both **Normal** and **Tabbed** Now Playing displays (behind visualizer/lyrics or pure theme gradient) with translucent sheet harmonization.
+- **Tabbed Player Gestures & Lyrics Visualizer Fix**: Enabled smooth manual drag-up/down expansion on the tabbed bottom sheet with nested-scroll protection for `Up next`, `Lyrics`, and `Related` lists; removed redundant `Up next` / `Lyrics` buttons beneath transport controls; eliminated overlapping visualizer conflicts when opening/closing the Lyrics sheet; and prevented circular spectrum clipping while giving the Normal player bottom bar extra safe inset margin.
+- **Deep Latency & Control Click-Speed Overhaul**:
+  - Offloaded Android `Visualizer` HAL initialization onto a serialized I/O worker with same-session reuse across pause/resume and tightened manual pause fade response (`50 ms`).
+  - Migrated queue JSON persistence out of `SharedPreferences` into dedicated atomic files (`filesDir`) alongside `O(1)` lookup indices and `Dispatchers.Default` queue updates, eliminating main-thread UI stalls on control taps (`Shuffle`, `Repeat`, `Play/Pause`, `Previous`, `Next`).
+  - Isolated 60 FPS visualizer frame streams and sheet alpha updates (`graphicsLayer`), cached Aero/Glass gradient brushes and track palettes, gated the transition fade monitor strictly to active fade-through playback, debounced widget/state snapshots, and optimized scroll observers across all library tabs.
+- **Cleaner Menu Glassmorphism**: Removed ambient background glow halos behind menus, cards, and the arc tab indicator while retaining crisp frosted borders.
+- **Multilingual Sorting & Compact Alphabet Fast-Scroller**: Added locale-aware collation ordering foreign scripts cleanly (Latin `A–Z`, foreign letters, then `0–9`/`#`) and a 50%-smaller, compact right-side alphabet slider showing `A–Z`, `Я` (grouping all non-Latin tracks by default), and `#`, expanding to native letters automatically when a non-Latin app language is chosen.
+
+### 📱 Home-Screen Widgets Suite (5 Distinct Styles)
+- **Consolidated & Reliable Widget Lineup**: Streamlined the launcher picker by removing duplicate rectangular variants and keeping **5 distinct widgets** (**Player Card**, **Lyrics Card 4×3**, **Vinyl Turntable 2×2**, **Aero Pod Player 4×2**, and **Equalizer Spectrum 4×2**) with replicated `previewImage` + `previewLayout` previews, compact binder bitmaps, and active-widget snapshot gating.
+- **Full Widget Controls**: Added **Favorite (Heart)**, **Shuffle**, and **Repeat** actions directly alongside transport controls on the unified blurred **Player Card** and across the widget suite.
+
+### 🔐 Security, Obfuscation & Signing
+- **R8 Code Obfuscation & Resource Shrinking**: Enabled full R8 minification, class repackaging, debug metadata stripping, and resource shrinking (`app-release.apk` compressed from ~67.2 MB to ~15.0 MB) to protect proprietary logic and prevent reverse engineering.
+- **Package Checksum (`v1.1.3`)**:
+  - File: `app-release.apk`
+  - SHA-256: `e82a01f08c2001ea7410566751fd88c5f08a42ccb77b83153b84e28997bbc5b0`
+
+---
+
 ## [1.1.2] - 2026-10-24
 
 ### 🔀 Spotify-Style Queue Architecture
